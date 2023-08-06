@@ -1,0 +1,129 @@
+.container {
+    display: grid;
+    width: 900px;
+    height: 480px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+    "header header header header"
+    "content content content sidebar"
+    "content content content sidebar"
+    "content content content sidebar"
+    "content content content sidebar"
+    "footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: rgba(128, 128, 128, 0.385);
+    font-weight: bold;
+    width: 900px;
+    color: black;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+}
+
+.content {
+    display: grid;
+    grid-area: content;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: rgba(233, 220, 123, 0.484);
+    padding: 10px;
+}
+
+.content1 {
+    grid-area: 1/1/2/3;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content2 {
+    background-color: rgba(241, 208, 58, 0.627);
+    grid-area: 3/1/4/2;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content3 {
+    background-color: rgba(241, 208, 58, 0.627);
+    grid-area: 3/2/4/3;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content4 {
+    background-color: rgba(241, 208, 58, 0.627);
+    grid-area: 4/1/5/3;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgba(113, 180, 65, 0.484);
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer {
+    grid-area: footer;
+    display: grid;
+    width: 900px;
+    height: 80px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(128, 128, 128, 0.385);
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    align-content: center;
+}
+
+.footer1 {
+    grid-area: 6/1/7/2;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer2 {
+    grid-area: 6/2/7/3;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer3 {
+    grid-area: 6/3/7/4;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer4 {
+    grid-area: 6/4/7/5;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
