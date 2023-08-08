@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.logo_text {
+    color: var(--black, #191825);
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    margin-left: 8px;
+    display: flex;
+}
+
+.menu {
+    column-gap: 64px;
+    display: flex;  
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.menu2 {
+    color: rgba(25, 24, 37, 0.50);
+
+}
+.menu1 {
+    color: #222831;
+}
+
+.login1 {
+    color: #222831;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.login2 {
+    color: #EEE;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 100px;
+    background: #5D50C6;
+    padding: 8px 16px;
+    gap: 8px;
+}
+
+.main {
+    
+}
