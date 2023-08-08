@@ -1,3 +1,7 @@
+body {
+    width: 1400px;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -56,12 +60,8 @@ header {
     font-weight: 700;
     border-radius: 100px;
     background: #5D50C6;
-    padding: 8px 16px;
+    padding: 15px 30px;
     border: 0;
-}
-
-.main {
-
 }
 
 .h1 {
@@ -91,8 +91,7 @@ header {
     border-radius: 100px;
     border: 1px solid #EEE;
     background: #FFF;
-    padding: 8px 16px;
-
+    padding: 15px 30px;
 }
 
 .preview {
@@ -113,7 +112,7 @@ header {
 
 .preview2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .preview__image1 {
@@ -127,4 +126,40 @@ header {
 .preview__image3 {
     grid-area: 2/3/6/5;
     margin: 20px;
+}
+
+.section2 {
+    padding: 100px 0px 100px 0px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 400px 400px;
+    gap: 40px 5px;
+}
+
+.sectionh2 {
+    color: #F85E9F;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sectionp2 {
+    color: #191825;
+    font-family: 'Inter', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+}
+
+.2 {
+
+}
+
+.3 {
+    
 }
