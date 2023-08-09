@@ -12,6 +12,7 @@ header {
 
 .logo {
     align-items: center;
+    padding-bottom: 15px;
 }
 
 .logo_text {
@@ -193,7 +194,17 @@ header {
     justify-items: center;
 }
 
-
 .footer {
     padding: 30px 30px 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer1 {
+    color: rgba(25, 24, 37, 0.50);
+    font-family: Circular Std;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 450;
+    padding-top: 15px;
 }
